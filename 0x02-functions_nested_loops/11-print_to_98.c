@@ -21,4 +21,3 @@ printf(%d, , n++);
 printf(%dn, n);
 }
 }
-
