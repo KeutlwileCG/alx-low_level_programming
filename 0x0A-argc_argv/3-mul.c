@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include main.h
+#include "main.h"
 
 
 /**
@@ -111,7 +111,7 @@ int main(int argc, char *argv[])
 
         {
 
-                printf(Errorn);
+                printf("Error\n");
 
                 return (1);
 
@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
         result = num1 * num2;
 
 
-        printf(%dn, result);
+        printf("%d\n", result);
 
 
         return (0);
